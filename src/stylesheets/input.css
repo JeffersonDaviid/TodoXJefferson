@@ -1,0 +1,60 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.input__text {
+  padding: 3px;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  width: 90%;
+
+  outline: none;
+  border: 1px solid #05a5ef83;
+}
+
+.btn {
+  align-self: center;
+  background-color: #e10d1b;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #e8dede;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  outline: none;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index: 10000;
+}
+
+.btn-agregar {
+  background-color: #05a5ef;
+  color: #fff;
+}
+
+.btn:hover {
+  box-shadow: #ffffff4d 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}

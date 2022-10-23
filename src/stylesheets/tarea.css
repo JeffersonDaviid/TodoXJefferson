@@ -1,0 +1,80 @@
+.task,
+.task--complete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px 3px;
+  border-radius: 5px;
+
+  background-color: #00000087;
+  color: #eee;
+
+  border: 2px solid #d3d3d3;
+  animation: spin 5s alternate-reverse infinite;
+}
+
+.task--complete {
+  border: 0.1px solid #d3d3d3;
+  animation-name: none;
+}
+
+.task:hover {
+  box-shadow: 0 0 20px #3388ff98;
+}
+
+@keyframes spin {
+  0% {
+    border-top-color: #008efb99;
+    border-right-color: #33ff0099;
+    border-bottom-color: #ea00ff99;
+    border-left-color: #d3d3d399;
+  }
+  25% {
+    border-top-color: #d3d3d399;
+    border-right-color: #008efb99;
+    border-bottom-color: #33ff0099;
+    border-left-color: #ea00ff99;
+  }
+  75% {
+    border-top-color: #ea00ff99;
+    border-right-color: #d3d3d399;
+    border-bottom-color: #008efb99;
+    border-left-color: #33ff0099;
+  }
+  100% {
+    border-top-color: #008efb99;
+    border-right-color: #33ff0099;
+    border-bottom-color: #ea00ff99;
+    border-left-color: #d3d3d399;
+  }
+}
+
+.task__text,
+.task__text--complete {
+  text-align: left;
+  overflow-wrap: anywhere;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.task__text--complete {
+  text-decoration: line-through;
+  animation: none;
+}
+
+.task__icons {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.task__icons--icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin: 5px;
+}

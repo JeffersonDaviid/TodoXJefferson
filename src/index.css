@@ -1,12 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Indie+Flower&family=Karla:ital,wght@1,300&family=Montserrat:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: "Quicksand", sans-serif; */
+  /* font-family: 'Karla', sans-serif; */
+  font-family: 'Indie Flower', cursive;
+}
+body {
+  background-image: url('https://www.xtrafondos.com/wallpapers/resoluciones/22/chica-anime-viendo-la-ciudad_1920x1080_10383.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 100vh;
+}
+.title {
+  text-align: center;
 }
 
-html,
-body {
-  font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #f4f5f6;
+h1,
+h3 {
+  color: #f8f0f0;
+  text-shadow: 2px 1px 1px #2196f3;
+}
+
+h3 {
+  letter-spacing: 1.2px;
 }
