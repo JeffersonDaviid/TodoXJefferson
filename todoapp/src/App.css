@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+
+  height: 100vh;
+}
+
+.Logo-X {
+  font-weight: 200;
+}
+
+@media (min-width: 320px) {
+  .App {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .App {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .App {
+    width: 500px;
+  }
+}
