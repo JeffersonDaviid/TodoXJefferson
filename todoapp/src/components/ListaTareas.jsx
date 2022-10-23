@@ -4,7 +4,6 @@ import Input from './Input';
 import '../stylesheets/lista-tareas.css';
 
 let fondos = [
-  'https://www.xtrafondos.com/wallpapers/atardecer-morado-416.jpg',
   'https://www.xtrafondos.com/wallpapers/muele-de-madera-frente-al-mar-al-atardecer-9896.jpg',
   'https://www.xtrafondos.com/wallpapers/retrowave-puesta-del-sol-3062.jpg',
   'https://www.xtrafondos.com/wallpapers/platicas-al-atardecer-5182.jpg',
@@ -12,9 +11,17 @@ let fondos = [
   'https://www.xtrafondos.com/wallpapers/chica-anime-viendo-la-ciudad-10383.jpg',
   'https://www.xtrafondos.com/wallpapers/chica-con-guitarra-9035.jpg',
   'https://www.xtrafondos.com/wallpapers/chica-en-columpio-mirando-la-luna-7709.jpg',
-  'https://www.xtrafondos.com/wallpapers/ninja-katana-sci-fi-city-neon-lights-5026.jpg',
   'https://www.xtrafondos.com/wallpapers/carretera-en-otono-6185.jpg',
-  'https://www.xtrafondos.com/wallpapers/resoluciones/20/noche-con-estrellas_2560x1440_5155.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/22/budapest-por-la-noche_1920x1080_10784.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/19/noche-cielo-estrellas-y-cometa_1920x1080_3036.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/19/cometas-y-planetas-en-paisaje-digital-urbano-en-la-noche_1920x1080_4419.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/20/astronauta-cayendo-en-el-espacio_1920x1080_5810.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/19/carretera-de-anochecer-nubes-y-bosque_1280x720_3040.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/20/paisaje-de-ciudad-futurista-artwork_1920x1080_4678.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/20/trafico-en-san-francisco_1920x1080_4930.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/19/ciudad-ciencia-ficcion-arte-digital_1920x1080_3863.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/19/paisaje-de-china-al-atardecer_1920x1080_4274.jpg',
+  'https://www.xtrafondos.com/wallpapers/resoluciones/22/porsche-en-la-naturaleza-arte-digital_1920x1080_10729.jpg',
 ];
 
 const numeroAleatorio = (min, max) => {
